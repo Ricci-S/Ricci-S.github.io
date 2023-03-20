@@ -74,7 +74,7 @@
 .home{
     display: flex;
     /* este esta buenisimo, usalo, este jala, usa ESTE*/
-    background: url("images/banner.jpg") no-repeat center;
+    /*background: url("images/banner.jpg") no-repeat center;*/
     height: 100vh;
     color: #fff;
     min-height: 500px;
