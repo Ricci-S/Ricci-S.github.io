@@ -13,70 +13,168 @@
     rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+<body class="bg-dark bg-gradient">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient fixed-top">
 		<div class="container">
-		  <a class="navbar-brand" href="#home">Ricardo Serrato</a>
+		  <a class="navbar-brand" href="#about">Ricardo Serrato</a>
 		  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		  </button>
 		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 			  <li class="nav-item">
-				<a class="nav-link" href="#home">Home</a>
-			  </li>
-			  <li class="nav-item">
 				<a class="nav-link" href="#about">About</a>
-			  </li>
-			  <li class="nav-item">
-				<a class="nav-link" href="#contact">Contact</a>
 			  </li>
               <li class="nav-item">
 				<a class="nav-link" href="#projects">Projects</a>
+			  </li>
+              <li class="nav-item">
+				<a class="nav-link" href="#contact">Contact</a>
 			  </li>
 			</ul>
 		  </div>
 		</div>
 	  </nav>
 
-      <section id="contact" class="contact section-padding">
+      <section class="about section-padding" id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-12 col-12">
+					<div class="about-img"><img alt=" Suited man in front of a blue background"
+						 class="img-fluid" src="images/Nice.jpg"></div>
+				</div>
+				<div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+					<div class="about-text ">
+						<h2 class="text-light" >I am Ricardo Serrato a <span>Front-End Engineer</span></h2>
+						<p class="text-light"> Good afternoon, thanks for stopping by, my name is Ricardo Serrato, a digital 
+                            animator & game makert turned Front-end-engineer. In my page you will be able to 
+                            see several of my projects as well as my direct contant. </p>
+							  <a class="btn btn-warning" href="#contact">Contact</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+      <section id="projects" class="portfolio section-padding">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<div class="section-header text-center pb-5">
-						<h2>Contact us</h2>
-						<p>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.
-						 Temporibus asperiores, explicabo nemo beatae <br> tenetur dolor
-						  voluptatibus sit eum itaque libero quia, dolorum quidem.</p>
+						<h2 class="text-light">My Projects</h2>
+						<p class="text-light">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.
+							 Temporibus asperiores, explicabo nemo beatae <br> tenetur dolor
+							  voluptatibus sit eum itaque libero quia, dolorum quidem.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 col-md-12 col-lg-4 mb-4">
+					<div class="card text-center bg-white pb-2">
+						<div class="card-body text-dark">
+							<div class="img-area mb-4">
+								<img src="img/project-1.jpg" alt="" class="img-fluid">
+							</div>
+							<h3 class="card-title">Calculator</h3>
+							<p class="lead"> An online calculator that lets you do all the operations you might need.
+							</p>
+							<button class="btn bg-warning text-dark"> Learn More</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-12 col-lg-4 mb-4">
+					<div class="card text-center bg-white pb-2">
+						<div class="card-body text-dark">
+							<div class="img-area mb-4">
+								<img src="img/project-2.jpg" alt="" class="img-fluid">
+							</div>
+							<h3 class="card-title">Drawing App</h3>
+							<p class="lead">Fun app where you can draw online!
+							</p>
+							<button class="btn bg-warning text-dark"> Learn More</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-md-12 col-lg-4 mb-4">
+					<div class="card text-center bg-white pb-2">
+						<div class="card-body text-dark">
+							<div class="img-area mb-4">
+								<img src="img/project-3.jpg" alt="" class="img-fluid">
+							</div>
+							<h3 class="card-title">Alarm Clock</h3>
+							<p class="lead"> Set an alarm based on time or on a countdown!
+							</p>
+							<button class="btn bg-warning text-dark"> Learn More</button>
+						</div>
+					</div>
+				</div>
+
+                <div class="col-12 col-md-12 col-lg-4">
+					<div class="card text-center bg-white pb-2">
+						<div class="card-body text-dark">
+							<div class="img-area mb-4">
+								<img src="img/project-3.jpg" alt="" class="img-fluid">
+							</div>
+							<h3 class="card-title">Alarm Clock</h3>
+							<p class="lead"> Set an alarm based on time or on a countdown!
+							</p>
+							<button class="btn bg-warning text-white"> Learn More</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+      <section id="contact" class="contact section-padding">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-header text-center pb-4">
+						<h2 class="text-light">Contact!</h2>
+						<p class="text-light">Interested in my work? <br> Do you want my help?<br> Just send a 
+							quick message or call my number!</p>
+						<p class="fs-2 text-light">81-1175-7464</p>
 					</div>
 				</div>
 			</div>
 			<div class="row m-0">
-				<div class="col-md-12 p-0 pt-4 pb-4">
-					<form action="#" class="bg-light p-4.m-auto">
+				<div class="col-md-12 p-0 pt-0 pb-4">
+					<form action="https://formsubmit.co/ricardo.serrato29@gmail.com" 
+					method="POST" class="p-4.m-auto">
+
 						<div class="row">
 							<div class="col-md-12">
 								<div class="mb-3">
-									<input type="text" class="form-control" required 
-									placeholder="Your full name" >
+									<input type="text" name="name" class="form-control" required 
+									placeholder="Full Name" >
 								</div>
 							</div>
 							<div class="col-md-12">
 								<div class="mb-3">
-									<input type="email" class="form-control" required 
-									placeholder="Your Email Here" >
+									<input type="email" name="email" class="form-control" required 
+									placeholder="Email" >
 								</div>
 							</div>
 							<div class="col-md-12">
 								<div class="mb-3">
 									<textarea rows="3" class="form-control" required
-									placeholder="Your Query Here"></textarea>
+									placeholder="Message"></textarea>
 								</div>
 							</div>
-	
-							<button class="btn btn-warning btn-lg btn-block mt-3"> Send Now</button>
+							<button class="btn btn-warning btn-lg btn-block mt-3" type="submit">Send</button>
 						</div>
+						<input type="hidden" name="_next" value="https://ricci-s.github.io/index.html?#contact">
+						<input type="hidden" name="_subject" value="Job interest.">
 					</form>
+					<!-- 
+					<form action="https://formsubmit.co/your@email.com" method="POST">
+					<input type="text" name="name" required>
+					<input type="email" name="email" required>
+					<button type="submit">Send</button>
+					</form>
+					 -->
 				</div>
 			</div>
 		</div>
